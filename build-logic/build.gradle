@@ -32,7 +32,7 @@ dependencies {
     api 'com.android.tools.build:bundletool:1.15.6'
     
     testImplementation 'junit:junit:4.13.2'
-    testImplementation "com.google.truth:truth:1.4.4"
+    testImplementation "com.google.truth:truth:1.4.5"
     testImplementation "org.robolectric:robolectric:4.13"
     testImplementation project(path: ':jaxp')
 
