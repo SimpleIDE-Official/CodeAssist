@@ -45,7 +45,7 @@ dependencies {
     // bytecode analysis
     api 'org.apache.bcel:bcel:6.5.0'
     implementation 'org.antlr:antlr4-runtime:4.13.2'
-    api 'org.jsoup:jsoup:1.18.1'
+    api 'org.jsoup:jsoup:1.23.2'
 
     implementation project(path: ':language-api')
     implementation project(path: ':completion-api')
